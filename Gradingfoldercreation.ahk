@@ -19,7 +19,7 @@ SplitPath, A_ScriptName, , , , thisscriptname
 ;Have a project name box appear
 ; have a set of subfolders in that main folder
 
-FormatTime, CurrentDateTime,, yyyyMMdd_
+FormatTime, CurrentDateTime,, yyyyMMdd
 
 
 
@@ -30,4 +30,5 @@ FileCreateDir, %CurrentDateTime%_%FolderName%/0_EXPORTS
 FileCreateDir, %CurrentDateTime%_%FolderName%/1_DRIVE
 FileCreateDir, %CurrentDateTime%_%FolderName%/2_EDIT REF
 FileCreateDir, %CurrentDateTime%_%FolderName%/3_GRADE_REFERENCES
+clipboard = %CurrentDateTime%_%FolderName%
 ExitApp,
