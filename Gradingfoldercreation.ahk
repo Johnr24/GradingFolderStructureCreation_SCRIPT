@@ -1,4 +1,4 @@
-#SingleInstance, Force
+    #SingleInstance, Force
 #KeyHistory, 0
 SetBatchLines, -1
 ListLines, Off
@@ -22,14 +22,12 @@ SplitPath, A_ScriptName, , , , thisscriptname
 FormatTime, CurrentDateTime,, yyyyMMdd_
 
 
-^!f:: ;Ctrl+Alt+f hotkey...
 
 #IfWinActive, ahk_class CabinetWClass
-^n::
 InputBox, FolderName, What is the Name of the project?,
 FileCreateDir,  %CurrentDateTime%_%FolderName%
 FileCreateDir, %CurrentDateTime%_%FolderName%/0_EXPORTS
 FileCreateDir, %CurrentDateTime%_%FolderName%/1_DRIVE
 FileCreateDir, %CurrentDateTime%_%FolderName%/2_EDIT REF
 FileCreateDir, %CurrentDateTime%_%FolderName%/3_GRADE_REFERENCES
-Return
+ExitApp,
