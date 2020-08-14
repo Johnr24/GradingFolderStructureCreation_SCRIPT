@@ -7,21 +7,8 @@ SetTitleMatchMode, 3 ; A window's title must exactly match WinTitle to be a matc
 SetWorkingDir, %A_ScriptDir%
 SplitPath, A_ScriptName, , , , thisscriptname
 #MaxThreadsPerHotkey, 1 ; no re-entrant hotkey handling
-; DetectHiddenWindows, On
-; SetWinDelay, -1 ; Remove short delay done automatically after every windowing command except IfWinActive and IfWinExist
-; SetKeyDelay, -1, -1 ; Remove short delay done automatically after every keystroke sent by Send or ControlSend
-; SetMouseDelay, -1 ; Remove short delay done automatically after Click and MouseMove/Click/Drag
-
-
-; I Need to 
-
-; Create a folder with the reverse date like this 20200814_ 
-;Have a project name box appear
-; have a set of subfolders in that main folder
 
 FormatTime, CurrentDateTime,, yyyyMMdd
-
-
 
 #IfWinActive, ahk_class CabinetWClass
 InputBox, FolderName, What is the Name of the project?,
