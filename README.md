@@ -6,7 +6,7 @@ John's Colour Grading Folder Creation Script
 #### Example Folder Structure
 The Script will create this folder structure
 ```
-%CURRENT_DATE%_PROJECTNAME-CLIENTNAME
+_DATE_OF_Folder_CREATION_PROJECTNAME-CLIENTNAME
     ├───0_EXPORTS
            ├───DELIVERY
            └───PREVIEWS
