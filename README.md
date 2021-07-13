@@ -18,6 +18,7 @@ John's Colour Grading Folder Creation Script
         ├───1_Timelines
         ├───2_Resolve_Projects
         └───3_HALDsandLuts
+```
+#### Additional 
 
-
-The Script will also copy the name of the Root Folder on to the clipboard for use as the project name in Davinci resolve 
+The Script will also copy the name of the Root Folder on to the clipboard for use as the project name in Davinci Resolve 
